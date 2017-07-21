@@ -1,0 +1,42 @@
+body {
+    background: #008694;
+    font: 12px/20px arial;
+}
+
+header {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#timer {
+    z-index: 4;
+    font-size: 24px;
+    color: #fa3c3c;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+#grid-container {
+    width: 302px;
+    height: 402px;
+    margin: 50px auto;
+    background-color: #55d769;
+    border: 5px solid #000;
+    position: relative;
+}
+
+.grid {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #000;
+    position: absolute;
+}
